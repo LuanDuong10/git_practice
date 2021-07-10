@@ -22,8 +22,7 @@ public class ObjectFile {
             System.out.println(ss);
             osi.close();
             fi.close();
-        }
-        catch (Exception e){
+        } catch (Exception e) {
 
         }
     }

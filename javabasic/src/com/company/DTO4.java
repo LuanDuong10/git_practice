@@ -13,7 +13,7 @@ public class DTO4 {
             System.out.println("Số bạn nhập không đúng");
         } else {
             int count = 0;
-            for (int i = 1; i <= n; i+=2) {
+            for (int i = 1; i <= n; i += 2) {
                 if (i % 2 == 0) {
                     System.out.println("Số nhập là");
                 } else {

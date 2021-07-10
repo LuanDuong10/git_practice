@@ -84,11 +84,11 @@ public class Student extends Person {
             return false;
         }
     }
-    public boolean checkScholarship(){
-        if(mark >=8){
+
+    public boolean checkScholarship() {
+        if (mark >= 8) {
             return true;
-        }
-        else {
+        } else {
             return false;
         }
     }

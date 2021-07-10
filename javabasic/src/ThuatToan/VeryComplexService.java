@@ -3,10 +3,11 @@ package ThuatToan;
 public class VeryComplexService {
     private BubbleSortAlgorithm bubbleSortAlgorithm = new BubbleSortAlgorithm();
 
-    public VeryComplexService(){
+    public VeryComplexService() {
 
     }
-    public void complexBusiness(int [] array){
+
+    public void complexBusiness(int[] array) {
         bubbleSortAlgorithm.sort(array);
     }
 }

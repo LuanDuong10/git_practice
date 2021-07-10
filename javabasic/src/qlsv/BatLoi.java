@@ -6,8 +6,7 @@ public class BatLoi {
         String num = "sda";
         try {
             number = Integer.parseInt(num);
-        }
-        catch (Exception e){
+        } catch (Exception e) {
             System.out.println("can not parse to int");
         }
         System.out.println("Number: " + number);

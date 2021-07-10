@@ -5,8 +5,8 @@ public class ObjectArray {
         Account obj[] = new Account[2];
         String obj1[] = new String[3];
 
-        obj[0].setData(1,2);
-        obj[1].setData(3,4);
+        obj[0].setData(1, 2);
+        obj[1].setData(3, 4);
 
         System.out.println("Phan tu mang 0");
         obj[0].showData();

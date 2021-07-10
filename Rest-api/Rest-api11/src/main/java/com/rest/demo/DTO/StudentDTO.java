@@ -13,7 +13,7 @@ public class StudentDTO {
     private String name;
     private String passportNumber;
 
-    public Student _toConvertStudentEntity(){
+    public Student _toConvertStudentEntity() {
         Student studentEntity = new Student();
         return studentEntity;
     }

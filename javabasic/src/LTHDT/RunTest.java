@@ -23,11 +23,11 @@ public class RunTest {
         //nhan 2 phan so
         psNhan = ps1.nhanPS(ps2);
         //nhan 2 phan so
-        psChia =ps1.chiaPS(ps2);
+        psChia = ps1.chiaPS(ps2);
 //        toi gian phan so
         ps2.toiGianPS();
         //Hien thi phan so
-        System.out.print("\nPhan so thu nhat la: " );
+        System.out.print("\nPhan so thu nhat la: ");
         ps1.hienthiPS();
         System.out.print("\nPhan so thu 2 la: ");
         ps2.hienthiPS();

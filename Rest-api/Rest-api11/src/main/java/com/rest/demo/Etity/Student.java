@@ -6,6 +6,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
+
 @Getter
 @Setter
 @AllArgsConstructor
@@ -22,7 +23,7 @@ public class Student {
     @Column
     private String passportNumber;
 
-    public StudentDTO _toConvertStudentDTO(){
+    public StudentDTO _toConvertStudentDTO() {
         StudentDTO studentDTO = new StudentDTO();
         return studentDTO;
     }

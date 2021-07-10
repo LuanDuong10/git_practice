@@ -10,7 +10,7 @@ public class TraveObject {
 //        Student11 s = tr.inputStudent();
 //        System.out.println(s);
         List<Student11> s = tr.getListStudent();
-        for (Student11 o : s){
+        for (Student11 o : s) {
             System.out.println(o);
         }
     }
@@ -24,7 +24,8 @@ public class TraveObject {
         Student11 st = new Student11(name, age);
         return st;
     }
-    public List<Student11> getListStudent(){
+
+    public List<Student11> getListStudent() {
         Student11 s1 = new Student11("Nguyen Van B", 20);
         Student11 s2 = new Student11("Nguyen Van C", 20);
         Student11 s3 = new Student11("Nguyen Van D", 20);

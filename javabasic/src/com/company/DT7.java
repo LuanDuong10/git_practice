@@ -9,7 +9,7 @@ public class DT7 {
         int a;
         a = sc.nextInt();
         int[] array = new int[a];
-        System.out.println("Tổng các phần tử trong mảng, khi bạn nhập trước đó là: "+ tinhTong(array));
+        System.out.println("Tổng các phần tử trong mảng, khi bạn nhập trước đó là: " + tinhTong(array));
     }
 
     public static int tinhTong(int[] n) {

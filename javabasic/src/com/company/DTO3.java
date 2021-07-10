@@ -16,8 +16,7 @@ public class DTO3 {
         if (a == 0) {
             if (b == 0) {
                 System.out.println("Phương trình vô nghiệm");
-            }
-            else {
+            } else {
                 System.out.println("Phương trình có nghiệm là: " + (-b / c));
             }
         } else {

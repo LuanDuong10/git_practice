@@ -26,7 +26,7 @@ public class Main2 {
         int max = Collections.max(arrayList);
         System.out.println(max);
         System.out.println("----------------");
-        int min  = Collections.min(arrayList);
+        int min = Collections.min(arrayList);
         System.out.println(min);
     }
 }

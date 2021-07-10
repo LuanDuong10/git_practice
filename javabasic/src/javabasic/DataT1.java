@@ -64,8 +64,7 @@ public class DataT1 {
                 } else {
                     break;
                 }
-            }
-            catch (Exception e) {
+            } catch (Exception e) {
                 System.out.println("Hãy nhập số");
             }
         }
